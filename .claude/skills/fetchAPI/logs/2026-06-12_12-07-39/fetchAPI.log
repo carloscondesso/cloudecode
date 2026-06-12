@@ -1,0 +1,16 @@
+2026-06-12 12:07:40,024 INFO Starting fetchAPI skill — 6 URLs
+2026-06-12 12:07:40,500 INFO HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_date.csv "HTTP/1.1 200 OK"
+2026-06-12 12:07:40,502 INFO SUCCESS  https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_date.csv  (6708 bytes)
+2026-06-12 12:07:40,518 INFO HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_returns.csv "HTTP/1.1 200 OK"
+2026-06-12 12:07:40,521 INFO SUCCESS  https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_returns.csv  (6612 bytes)
+2026-06-12 12:07:40,524 INFO HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_product.csv "HTTP/1.1 200 OK"
+2026-06-12 12:07:40,525 INFO SUCCESS  https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_product.csv  (648 bytes)
+2026-06-12 12:07:40,527 INFO HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_customer.csv "HTTP/1.1 200 OK"
+2026-06-12 12:07:40,528 INFO SUCCESS  https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_customer.csv  (3695 bytes)
+2026-06-12 12:07:40,549 INFO HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_store.csv "HTTP/1.1 200 OK"
+2026-06-12 12:07:40,551 INFO SUCCESS  https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_store.csv  (441 bytes)
+2026-06-12 12:07:40,554 INFO HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_sales.csv "HTTP/1.1 200 OK"
+2026-06-12 12:07:40,595 INFO SUCCESS  https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_sales.csv  (335457 bytes)
+2026-06-12 12:07:40,801 INFO Done — 6 succeeded, 0 failed
+2026-06-12 12:07:40,801 INFO Data saved to: f:\Pessoal (original)\Carlos\Training\2026\14. Cloude-Code-For-Data\cloudecode\.claude\skills\fetchAPI\data\2026-06-12_12-07-39
+2026-06-12 12:07:40,801 INFO Log saved to:  f:\Pessoal (original)\Carlos\Training\2026\14. Cloude-Code-For-Data\cloudecode\.claude\skills\fetchAPI\logs\2026-06-12_12-07-39\fetchAPI.log

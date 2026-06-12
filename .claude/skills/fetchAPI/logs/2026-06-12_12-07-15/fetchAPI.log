@@ -1,0 +1,10 @@
+2026-06-12 12:07:15,653 INFO Starting fetchAPI skill — 6 URLs
+2026-06-12 12:07:17,089 ERROR FAILED   https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_product.csv  error=[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
+2026-06-12 12:07:17,091 ERROR FAILED   https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_store.csv  error=[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
+2026-06-12 12:07:17,094 ERROR FAILED   https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_returns.csv  error=[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
+2026-06-12 12:07:17,097 ERROR FAILED   https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_date.csv  error=[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
+2026-06-12 12:07:17,099 ERROR FAILED   https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_sales.csv  error=[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
+2026-06-12 12:07:17,101 ERROR FAILED   https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_customer.csv  error=[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
+2026-06-12 12:07:17,101 INFO Done — 0 succeeded, 6 failed
+2026-06-12 12:07:17,101 INFO Data saved to: f:\Pessoal (original)\Carlos\Training\2026\14. Cloude-Code-For-Data\cloudecode\.claude\skills\fetchAPI\data\2026-06-12_12-07-15
+2026-06-12 12:07:17,101 INFO Log saved to:  f:\Pessoal (original)\Carlos\Training\2026\14. Cloude-Code-For-Data\cloudecode\.claude\skills\fetchAPI\logs\2026-06-12_12-07-15\fetchAPI.log
