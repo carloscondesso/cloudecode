@@ -197,8 +197,11 @@ def build_visualizations(tables: dict[str, pd.DataFrame], output_dir: Path) -> N
 
 def main() -> None:
     """Orchestrate KPI computation and chart generation."""
-    data_base = r".\.claude\skills\migrate\data"
-    viz_base = r".\.claude\skills\visualize\visualizations"
+    # Derive paths from this file's location so the script works from any CWD.
+    # File is at <project_root>/.claude/skills/visualize/Scripts/build_visualizations.py
+    project_root = Path(__file__).resolve().parents[4]
+    data_base = project_root / ".claude" / "skills" / "migrate" / "data"
+    viz_base = project_root / ".claude" / "skills" / "visualize" / "visualizations"
 
     folder_name, data_folder = get_latest_folder(data_base)
     output_dir = Path(viz_base) / folder_name

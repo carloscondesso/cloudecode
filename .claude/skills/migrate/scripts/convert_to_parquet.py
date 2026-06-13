@@ -87,9 +87,11 @@ def convert_csv_to_parquet(
 
 def main():
     """Main function to orchestrate the conversion process."""
-    # Define paths
-    source_base = r".\.claude\skills\fetchAPI\data"
-    output_base = r".\.claude\skills\migrate\data"
+    # Derive paths from this file's location so the script works from any CWD.
+    # File is at <project_root>/.claude/skills/migrate/scripts/convert_to_parquet.py
+    project_root = Path(__file__).resolve().parents[4]
+    source_base = project_root / ".claude" / "skills" / "fetchAPI" / "data"
+    output_base = project_root / ".claude" / "skills" / "migrate" / "data"
     
     print("=" * 70)
     print("CSV to Parquet Converter")

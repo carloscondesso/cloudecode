@@ -6,7 +6,7 @@ description: Fetches data from APIs and handles responses. Use when interacting 
 ## Usage
 
 ### Step-1: Pick the python environment
-Before you start, make sure to pick the python environment in which you want to run the code. You can run/install dependencies using my '.venv' environment which is located at "C:\ClaudeCode\.venv"
+Before you start, make sure to pick the python environment in which you want to run the code. You can run/install dependencies using my '.venv' environment which is located at "f:\Pessoal (original)\Carlos\Training\2026\14. Claude-Code-For-Data\cloudecode\.venv"
 
 ### Step-2: Fetch Data from APIs
 You need to make python API calls to fetch data from the following URLs using async httpx:

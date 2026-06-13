@@ -7,7 +7,7 @@ description: Migrates the fetched data stored in the ".claude/skills/fetchAPI/da
 ## Usage
 
 ### Step-1: Pick the python environment
-Before you start, make sure to pick the python environment in which you want to run the code. You can run/install dependencies using my '.venv' environment which is located at "C:\ClaudeCode\.venv"
+Before you start, make sure to pick the python environment in which you want to run the code. You can run/install dependencies using my '.venv' environment which is located at "f:\Pessoal (original)\Carlos\Training\2026\14. Claude-Code-For-Data\cloudecode\.venv"
 
 ### Step-2: Run the Python Script To Migrate Data
 - You need to run the Python Script stored at ".claude/skills/migrate/scripts/convert_to_parquet.py".
